@@ -1,7 +1,6 @@
 package br.com.gbguii.athlete;
 
 public class AthleteObj {
-	private int id;
 	private String name;
 	private String country;
 	private Double throwDistance;
@@ -10,21 +9,12 @@ public class AthleteObj {
 		
 	}
 	
-	public AthleteObj(int id ,String name, String countryString, Double throwDistance) {
-		this.id = id;
+	public AthleteObj(String name, String countryString, Double throwDistance) {
 		this.name = name;
 		this.country = countryString;
 		this.throwDistance = throwDistance;
 	}
 	
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
 	public String getName() {
 		return name;
 	}

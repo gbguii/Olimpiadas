@@ -1,4 +1,4 @@
-package br.com.gbguii.Podium;
+package br.com.gbguii.podium;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +24,7 @@ public class ControlPodium {
 			String name = returnInputString("Nome do atleta "+ (i+1) + ": ");
 			String country = returnInputString("País do atleta "+ (i+1) + ": ");
 			Double distance = returnInputDouble("Qual a distância do arremesso do atleta "+ (i+1) + ": ");
-			athletes.add(new AthleteObj(i+1 ,name, country, distance));
+			athletes.add(new AthleteObj(name, country, distance));
 			System.out.println("-----------------------------------------------");
 		}
 	}

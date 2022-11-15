@@ -1,6 +1,6 @@
-package br.com.gbguii.Main;
+package br.com.gbguii.main;
 
-import br.com.gbguii.Podium.ControlPodium;
+import br.com.gbguii.podium.ControlPodium;
 
 public class MainInput {
 
